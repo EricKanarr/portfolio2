@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  margin: 0;
+  padding: 0;
 }
 nav ul li a {
   color: black;
@@ -14,14 +16,12 @@ ul {
 
 .nav-row {
   display: flex;
-  background-color: #7F8C8D;
-  height:50px;
-  justify-content: ;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  margin: 0;
+  background-color: #e3e6ea;
+  height:auto;
+  width: auto;
+  justify-content: space-around;
   padding: 0;
+  margin: 0;
 }
 
 .nav-item {
