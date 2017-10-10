@@ -28,9 +28,73 @@ ul {
   padding: 10px;
 }
 
-.main-header {
-  text-align: center;
-  padding-top: 10px;
-  font-size: 36px;
-  margin: 50px;
+.about-me-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  color: #e3e6ea;
+  background: #191919;
+}
+
+.about-me-text {
+  position: relative;
+  width: 80vw;
+  font-size: 1.2rem;
+  border: 5px solid;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  color: #e3e6ea;
+}
+
+.portfolio-wrapper {
+  background: #e3e6ea;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio-area {
+  display: flex;
+  justify-content: center;
+}
+
+.project-text {
+  position: relative;
+  border: 5px solid;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 45vw;
+  margin: 30px 20px;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.project-link {
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+}
+
+.project-pic {
+  border: 5px solid;
+  width: 45vw;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20px;
+  border: 5px solid #191919;
 }
